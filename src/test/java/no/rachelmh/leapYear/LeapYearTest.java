@@ -54,10 +54,13 @@ class LeapYearTest {
     @Test
     void leapYear2004() {
         assertTrue(leapYear.isLeapYear(2004));}
+
+    @Test
+    void notleapYear2003() {
+        assertFalse(leapYear.isLeapYear(2003));}
     
     @Test
     void divisibleBy100butNot400(){
-        assertEquals(false, leapYear.isLeapYear(1900));
+        assertFalse(leapYear.isLeapYear(1900));
     }
-
 }
