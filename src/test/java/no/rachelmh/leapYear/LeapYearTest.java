@@ -27,6 +27,14 @@ class LeapYearTest {
         val = leapYear.isLeapYear(1700);
         assertTrue(ans, String.valueOf(val));
     }
+    @Test
+    public void notALeapYear(){
+        boolean ans = true;
+        boolean val;
+        val = leapYear.isLeapYear(1703);
+        assertTrue(ans, String.valueOf(val));
+    }
+
 
     @Test()
     public void DivisibleBy4() {
