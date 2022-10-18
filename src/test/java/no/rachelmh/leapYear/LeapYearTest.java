@@ -20,6 +20,14 @@ class LeapYearTest {
         assertEquals(ans,val);
     }
 
+    @Test
+    public void CenturyTestForNotLeapYear(){
+        boolean ans = true;
+        boolean val;
+        val = leapYear.isLeapYear(1700);
+        assertTrue(ans, String.valueOf(val));
+    }
+
     @Test()
     public void DivisibleBy4() {
         boolean ans = true;
@@ -56,7 +64,7 @@ class LeapYearTest {
         assertTrue(leapYear.isLeapYear(2004));}
 
     @Test
-    void notleapYear2003() {
+    void notLeapYear2003() {
         assertFalse(leapYear.isLeapYear(2003));}
     
     @Test
