@@ -5,10 +5,10 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ $default-branch ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ $default-branch ]
-#some test
+    branches: [ "main" ]
+
 jobs:
   build:
 
