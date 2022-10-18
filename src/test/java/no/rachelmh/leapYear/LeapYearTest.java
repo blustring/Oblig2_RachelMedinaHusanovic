@@ -28,7 +28,7 @@ class LeapYearTest {
         assertTrue(ans, String.valueOf(val));
     }
     @Test
-    public void notALeapYear(){
+    public void notALeapyear(){
         boolean ans = true;
         boolean val;
         val = leapYear.isLeapYear(1703);
