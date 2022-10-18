@@ -43,7 +43,7 @@ class LeapYearTest {
         val = leapYear.isLeapYear(2008);
         assertEquals(ans,val);
     }
-
+/*
     @Test()
     public void DivisibleBy400() {
         boolean ans = true;
@@ -51,7 +51,7 @@ class LeapYearTest {
         val = leapYear.isLeapYear(1924);
         assertEquals(ans, val);
     }
-
+*/
     @Test()
     public void notDivisibleBy100() {
         boolean ans = true;
