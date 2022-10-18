@@ -19,7 +19,7 @@ class LeapYearTest {
         val = leapYear.isLeapYear(2012);
         assertEquals(ans,val);
     }
-
+/*
     @Test
     public void CenturyTestForNotLeapYear(){
         boolean ans = true;
@@ -27,6 +27,8 @@ class LeapYearTest {
         val = leapYear.isLeapYear(1700);
         assertTrue(ans, String.valueOf(val));
     }
+
+ */
     @Test
     public void notALeapyear(){
         boolean ans = true;
