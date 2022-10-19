@@ -18,9 +18,11 @@
 
 
     <properties>
+        <java.home>/usr/java/jdk1.8.0_45/bin/javac</java.home>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
     </properties>
 
     <build>
