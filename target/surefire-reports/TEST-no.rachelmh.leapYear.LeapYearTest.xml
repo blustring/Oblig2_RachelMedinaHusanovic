@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="no.rachelmh.leapYear.LeapYearTest" time="0.045" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="no.rachelmh.leapYear.LeapYearTest" time="0.048" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\rchlm\IdeaProjects\Oblig2_RachelMedinaHusanovic\target\test-classes;C:\Users\rchlm\IdeaProjects\Oblig2_RachelMedinaHusanovic\target\classes;C:\Users\rchlm\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\rchlm\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\rchlm\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\rchlm\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\rchlm\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\rchlm\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\rchlm\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\rchlm\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;"/>
+    <property name="java.class.path" value="C:\Users\rchlm\IdeaProjects\Oblig2_RachelMedinaHusanovic\target\test-classes;C:\Users\rchlm\IdeaProjects\Oblig2_RachelMedinaHusanovic\target\classes;C:\Users\rchlm\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\rchlm\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\rchlm\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\rchlm\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\rchlm\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\rchlm\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\rchlm\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\rchlm\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="user.timezone" value="Europe/Oslo"/>
     <property name="user.country.format" value="SE"/>
     <property name="os.name" value="Windows 11"/>
     <property name="java.vm.specification.version" value="19"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Users\rchlm\.jdks\openjdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Users\rchlm\AppData\Local\Temp\surefire4834594743513936196\surefirebooter6949092445708448342.jar C:\Users\rchlm\AppData\Local\Temp\surefire4834594743513936196 2022-10-19T20-13-50_061-jvmRun1 surefire11640688702244331388tmp surefire_0193360645899111525tmp"/>
+    <property name="sun.java.command" value="C:\Users\rchlm\AppData\Local\Temp\surefire14901129962363787613\surefirebooter15732762952487418508.jar C:\Users\rchlm\AppData\Local\Temp\surefire14901129962363787613 2022-10-19T20-25-37_420-jvmRun1 surefire3092358508594734776tmp surefire_09522199506978553519tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\rchlm\IdeaProjects\Oblig2_RachelMedinaHusanovic\target\test-classes;C:\Users\rchlm\IdeaProjects\Oblig2_RachelMedinaHusanovic\target\classes;C:\Users\rchlm\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\rchlm\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\rchlm\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\rchlm\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\rchlm\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\rchlm\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\rchlm\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\rchlm\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\rchlm\IdeaProjects\Oblig2_RachelMedinaHusanovic\target\test-classes;C:\Users\rchlm\IdeaProjects\Oblig2_RachelMedinaHusanovic\target\classes;C:\Users\rchlm\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\rchlm\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\rchlm\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\rchlm\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\rchlm\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\rchlm\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\rchlm\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\rchlm\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\rchlm"/>
     <property name="user.language" value="en"/>
@@ -31,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\rchlm\AppData\Local\Temp\surefire4834594743513936196\surefirebooter6949092445708448342.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\rchlm\AppData\Local\Temp\surefire14901129962363787613\surefirebooter15732762952487418508.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19+36-2238"/>
@@ -60,11 +59,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="DivisibleBy4" classname="no.rachelmh.leapYear.LeapYearTest" time="0.028"/>
-  <testcase name="notALeapyear" classname="no.rachelmh.leapYear.LeapYearTest" time="0"/>
+  <testcase name="DivisibleBy4" classname="no.rachelmh.leapYear.LeapYearTest" time="0.025"/>
+  <testcase name="notALeapyear" classname="no.rachelmh.leapYear.LeapYearTest" time="0.001"/>
   <testcase name="notDivisibleBy4divisibleBy100" classname="no.rachelmh.leapYear.LeapYearTest" time="0.001"/>
-  <testcase name="notLeapYear2003" classname="no.rachelmh.leapYear.LeapYearTest" time="0.002"/>
-  <testcase name="leapYear2004" classname="no.rachelmh.leapYear.LeapYearTest" time="0"/>
-  <testcase name="isDivisibleBy4ButNotDivisibleBy100" classname="no.rachelmh.leapYear.LeapYearTest" time="0"/>
-  <testcase name="divisibleBy100butNot400" classname="no.rachelmh.leapYear.LeapYearTest" time="0"/>
+  <testcase name="notLeapYear2003" classname="no.rachelmh.leapYear.LeapYearTest" time="0.003"/>
+  <testcase name="leapYear2004" classname="no.rachelmh.leapYear.LeapYearTest" time="0.001"/>
+  <testcase name="isDivisibleBy4ButNotDivisibleBy100" classname="no.rachelmh.leapYear.LeapYearTest" time="0.001"/>
+  <testcase name="divisibleBy100butNot400" classname="no.rachelmh.leapYear.LeapYearTest" time="0.001"/>
 </testsuite>
