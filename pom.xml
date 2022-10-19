@@ -26,9 +26,6 @@
                 <configuration>
                     <source>19</source>
                     <target>19</target>
-                    <includes>
-                        <include>**/*Test.java</include>
-                    </includes>
                 </configuration>
             </plugin>
         </plugins>
