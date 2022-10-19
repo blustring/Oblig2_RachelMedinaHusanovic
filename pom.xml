@@ -14,6 +14,7 @@
             <version>5.9.0</version>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
 
@@ -27,10 +28,11 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
+                <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <includes>
+                        <include>**/*_UT.java</include>
+                    </includes>
                 </configuration>
             </plugin>
         </plugins>
