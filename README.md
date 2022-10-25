@@ -17,9 +17,12 @@ In the beginning I am having error creating the maven.yml file. It says that I a
 ![image](https://user-images.githubusercontent.com/86023396/196391857-9e70c462-d90a-4cf1-8058-bde9d821d7be.png)
 
  But then the problem was actually in my git repo (Oblig2_RachelMedinaHusanovic) I needed to add build plugins in my pom.xml 
- ![image](https://user-images.githubusercontent.com/86023396/196392250-fa09ff06-6b91-45ef-9ba9-0f9e8eb35521.png)
+<img width="374" alt="image" src="https://user-images.githubusercontent.com/86023396/197714699-00978416-5aa1-428e-add1-724874847722.png">
+
 After adding this build plugin, all the actions im comminting in my git repo passes the workflow. 
-![image](https://user-images.githubusercontent.com/86023396/196392573-5656dfd8-f7b8-4783-a96d-fa753f79d651.png)
-![image](https://user-images.githubusercontent.com/86023396/196392659-94931adc-92aa-44ba-b7a1-3260060f363b.png)
+<img width="947" alt="image" src="https://user-images.githubusercontent.com/86023396/197715045-45ff4ec9-da73-44a2-86df-b230bc6023ac.png">
+And the test are all running by updating my maven.yml file. 
+<img width="455" alt="image" src="https://user-images.githubusercontent.com/86023396/197715305-ae794b33-0548-4042-9a3b-adca39840026.png">
+
 
 
