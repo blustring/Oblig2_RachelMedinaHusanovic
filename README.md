@@ -21,7 +21,10 @@ In the beginning I am having error creating the maven.yml file. It says that I a
 
 After adding this build plugin, all the actions im comminting in my git repo passes the workflow. 
 <img width="947" alt="image" src="https://user-images.githubusercontent.com/86023396/197715045-45ff4ec9-da73-44a2-86df-b230bc6023ac.png">
+
 And the test are all running by updating my maven.yml file. 
+
+
 <img width="455" alt="image" src="https://user-images.githubusercontent.com/86023396/197715305-ae794b33-0548-4042-9a3b-adca39840026.png">
 
 
